@@ -6,9 +6,9 @@ This is Complaint Management System built with PHP & mySQL(back-end), AJAX (clie
 ### Installation for Xampp
 ----------------
 01. `git clone https://github.com/vidush-dixit/CMS.git`
-02. `Extract and move Project folder inside xampp/htdocs/ folder`
-03. `Open localhost/phpmyadmin`
-04. `Create new database and import Database/cms.sql file`
+02. `move Project folder inside xampp/htdocs/ folder`
+03. `open localhost/phpmyadmin`
+04. `create new database and import Database/cms.sql file`
 05. `Now open localhost/{Your Project Folder Path from htdocs directory} to run the Project`
 
 ### Resources & Reference File
@@ -22,4 +22,4 @@ The application can be tested using below credentials which are seeded in the da
 
 -   Admin 			 -> email = admin@demo.com, password = Admin@1234
 -   Caretaker / Department Heads -> email = caretaker@demo.com, password = Caretaker@1234
--   User 			 -> email = user@demo.com, password = User@1234
+-   User 			 -> email = usert@demo.com, password = User@1234
