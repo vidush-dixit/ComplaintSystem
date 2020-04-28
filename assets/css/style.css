@@ -1,0 +1,181 @@
+/* Body General */
+body {
+    font-size: .875rem;
+}
+
+.btn .material-icons {
+    font-size: 22px;
+    margin-bottom: 4px;
+}
+
+.icons svg {
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
+}
+
+.web-theme {
+    background-image: linear-gradient(to bottom right, #000 30%, #8e2de2) !important;
+    color: #fff !important;
+}
+
+main{
+    padding-top: 57px !important;
+}
+
+@media screen and (max-width: 768px){
+    main{
+        padding-top: 0px;
+    }
+}
+
+/* Login Dropdown */
+.dropdown-menu-right{
+    right: 0 !important;
+    left: auto !important;
+}
+
+.dropdown-menu-right .dropdown-item {
+    color: #fff !important;
+}
+
+.dropdown-menu-right .dropdown-item:hover{
+    background-color: rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+}
+/* Login Dropdown End */
+
+/* Footer Icons */
+.app-store{
+    width: 200px;
+    height: 50px;
+}
+
+.social a{
+    cursor: pointer;
+}
+/* Footer Icons End */
+
+/* ================== */
+/* Custom Scroll Bar */
+
+::-webkit-scrollbar {
+    width: 15px;
+    background: transparent;
+    opacity: 0;
+}
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 1px grey; 
+    background: rgb(31, 30, 30);
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(to bottom, #8e2de2, #000); 
+    border-radius: 10px;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(to bottom,#000, #8e2de2);
+}
+
+/* ================ */
+/* Parallax Effect */
+
+/* Image Section Styling */
+/* Header Parallax Element Style*/ 
+.sectionImg {
+    min-height: 550px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+/* Heading for Parallax Section */ 
+.sectionImg h1 {
+    font-size: 3rem;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+    line-height: 100px;
+}
+
+/* Paragraph for Parallax Section */ 
+.sectionImg p {
+    font-size: 24px !important;
+    color:#000;
+    text-align: center;
+    padding-top: 30px;
+    line-height: 30px;
+    font-weight: bold;
+}
+
+
+/* Content Section Styling */
+.sectionContent {
+    min-height: 300px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.sectionContent h1 {
+    color: #f5f5f5;
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 40px;
+    font-weight: bolder;
+}
+
+.sectionContent p {
+    font-size: 1.5rem;
+    color:#f5f5f5;
+    text-align: center;
+    padding-top: 60px;
+    line-height: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .sectionImg h1 {
+        font-size: 28px;
+        line-height: 50px;
+    }
+    .sectionImg p {
+        font-size: 18px;
+    }
+    .sectionContent h1 {
+        font-size: 32px;
+    }
+    .sectionContent p {
+        font-size: 18px;
+    }
+}
+
+/* Image for Parallax Section */ 
+.imageSec1 {
+    background-image: url("../img/about.jpg");
+}
+    
+.imageSec2 {
+    background-image: url("../img/announcements.png");
+}
+    
+.imageSec3 {
+    background-image: url("../img/complaints.png");
+}
+
+/* Add more images for more sections */
+
+.contentSec{
+    background-color: rgba(0, 0, 0, 0.883);
+}
+
+/* Remove Bottom Margin from Jumbotron */
+.jumbotron{
+    margin-bottom: 0;
+}
+
+/* Ending Parallax Effect */
+/* ================ */
