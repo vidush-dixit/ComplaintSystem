@@ -1,4 +1,4 @@
-## Complaint Management System(CMS) in Laravel
+## Complaint Management System(CMS)
 -------------------------------------------
 
 This is Complaint Management System built with PHP & mySQL(back-end), AJAX (client-server Requests), Material+Boostrap (Front-end) and jQuery.
